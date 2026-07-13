@@ -11,6 +11,15 @@ Depends: ${misc:Depends},
          gxde-wlcom (>= 1.4.1-gxde1),
          gxde-wlcom-client (>= 1.4.1-gxde1),
          libdtk2widget6 (>= 6.0.3-4),
-         libdtk2widget6-dev (>= 6.0.3-4)
+         libdtk2widget6-dev (>= 6.0.3-4),
+         layer-shell-qt,
+         gxde-file-manager-neo,
+         gxde-disk-mount-plugin-neo (>= 6.2.0-gxde1),
+         gxde-dock (>= 6.0.0-1),
+         gxde-dock-onboard-plugin (>= 6.0.0-1),
+         gxde-dock-weather (>= 6.4.1),
+         dde-grand-search (>= 6.0.39gxde1),
+         dde-daemon (>= 4.0.1),
+         gxde-sni-server (>= 1.0.0-gxde1)
 Description: GXDE Wayland Session meta-package
  This is a metapackage installs required components for GXDE Wayland Session.
