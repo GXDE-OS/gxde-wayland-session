@@ -20,6 +20,7 @@ The following packages will be installed or upgraded · 以下包会被安装/�
 * `dde-grand-search` (>= 6.0.39gxde1)
 * `dde-daemon` (>= 4.0.1)
 * `gxde-sni-server` (>= 1.0.0-gxde1)
+* `gxde-terminal` (>= 5.1.3)
 
 ### Uninstallation | 卸载
 The following packages will be removed · 以下包会被移除：

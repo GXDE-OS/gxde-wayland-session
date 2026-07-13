@@ -20,6 +20,7 @@ Depends: ${misc:Depends},
          gxde-dock-weather (>= 6.4.1),
          dde-grand-search (>= 6.0.39gxde1),
          dde-daemon (>= 4.0.1),
-         gxde-sni-server (>= 1.0.0-gxde1)
+         gxde-sni-server (>= 1.0.0-gxde1),
+         gxde-terminal (>= 5.1.3)
 Description: GXDE Wayland Session meta-package
  This is a metapackage installs required components for GXDE Wayland Session.
