@@ -1,0 +1,14 @@
+Source: gxde-wayland-session
+Section: metapackages
+Priority: optional
+Maintainer: CharOfString <root@charofstring.cc>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2
+
+Package: gxde-wayland-session
+Architecture: all
+Depends: ${misc:Depends},
+         gxde-wlcom (>= 1.4.1-gxde1),
+         gxde-wlcom-client (>= 1.4.1-gxde1)
+Description: GXDE Wayland Session meta-package
+ This is a metapackage installs required components for GXDE Wayland Session.
