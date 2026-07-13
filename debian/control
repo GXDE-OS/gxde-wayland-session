@@ -9,6 +9,8 @@ Package: gxde-wayland-session
 Architecture: all
 Depends: ${misc:Depends},
          gxde-wlcom (>= 1.4.1-gxde1),
-         gxde-wlcom-client (>= 1.4.1-gxde1)
+         gxde-wlcom-client (>= 1.4.1-gxde1),
+         libdtk2widget6 (>= 6.0.3-4),
+         libdtk2widget6-dev (>= 6.0.3-4)
 Description: GXDE Wayland Session meta-package
  This is a metapackage installs required components for GXDE Wayland Session.
