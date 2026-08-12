@@ -1,51 +1,80 @@
-# GXDE Wayland Session
-## Introduction | 介绍
-This is `gxde-wayland-session`, a meta package that helps to install necessary component for GXDE Wayland session.
+![HEADER](./docs/img/HEADER.png)
 
-这是`gxde-wayland-session`，一个帮助安装GXDE Wayland会话必需组件的元包。
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <!--
+  <a href="https://gitee.com/GXDE-OS">
+    <img src="./docs/img/distro_icon.png" alt="Logo" width="80" height="80">
+  </a>
+  -->
 
-## Behavior | 行为
-### Installation | 安装
-The following packages will be installed or upgraded · 以下包会被安装/升级：
-* `gxde-wlcom` (>=`1.4.1-gxde1`)
-* `gxde-wlcom-client` (>=`1.4.1-gxde1`)
-* `libdtk2widget6` (>=`6.0.3-4`)
-* `libdtk2widget6-dev` (>=`6.0.3-4`)
-* `layer-shell-qt`
-* `gxde-file-manager-neo`
-* `gxde-disk-mount-plugin-neo` (>=`6.2.0-gxde1`)
-* `gxde-dock` (>=`6.0.0-1`)
-* `gxde-dock-onboard-plugin` (>=`6.0.0-1`)
-* `gxde-dock-weather` (>=`6.4.1`)
-* `dde-grand-search` (>= 6.0.39gxde1)
-* `dde-daemon` (>= 4.0.1)
-* `gxde-sni-server` (>= 1.0.0-gxde1)
-* `gxde-terminal` (>= 5.1.3)
+  <h3 align="center">GXDE Wayland Session</h3>
 
-### Uninstallation | 卸载
-The following packages will be removed · 以下包会被移除：
-N/A
+  <p align="center">
+    A meta package that helps you upgrrade GXDE components to minimum required version.
+    <br />
+    <a href="https://www.gxde.top/en/"><strong>Explore GXDE-OS »</strong></a>
+    <br />
+    <br />
+    <a href="./debian/control">GXDE Wayland Component's Min. Requirement</a>
+    &middot;
+    <a href="https://gitee.com/GXDE-OS/gxde-wlcom/issues">Report Bug</a>
+    &middot;
+    <a href="https://gitee.com/GXDE-OS/gxde-wlcom/issues">Request Feature</a>
+  </p>
+</div>
 
-Note that although `deepin-mutter` is depreciated on GXDE, we are not uninstalling it. It seems that `deepin-mutter` uses same package name as mutter. We defininitely don't want to uninstall GNOME Mutter for users if they are actually using that, so you may want to remove it manually if using `deepin-mutter`...
 
-需要注意的是尽管GXDE废弃了`deepin-mutter`，我们不会自动删除这个包。这是因为`deepin-mutter`似乎和Mutter用的同一个包名。我们可不想（在用户用的实际是GNOME Mutter的情况下）直接给人Mutter卸了，所以如果实际上你用的是`deepin-mutter`，一会你可能得自己卸载了...
+<!-- ABOUT THE PROJECT -->
+## About the Project
+This is `gxde-wayland-session`, a meta package that helps to upgrrade GXDE components to minimum required version.
 
-## Building | 构建
-For building please run · 对于构建请执行：
+
+<!-- GETTING STARTED -->
+## Getting Started
+This package does NOT contain any source code but it defines components' minimum version required. If you have GXDE APT source installed, then installing this paackage shall help you upgrrade GXDE components to minimum required version.
+
+### Prerequisite
+You should have GXDE APT source installed in your system.
+
+For any versions before `GXDE OS 25.4.1` (INCLUDED), you need to join the internal testing group.
+
+This package is NOT compactiable with `GXDE OS 15.x`.
+
+### Installing
+Just simply install `gxde-wayland-session` from GXDE APT source.
+
+Or, if you prefer to generate this meta package locally:
 ```bash
 $ chmod a+x ./build-deb
 $ ./build-deb -d
 ```
 
-The artifacts may be found on the parent folder of the project root.
+The artifact could be found on the parent folder of project root.
 
-构建产物可以在项目根目录的上级目录找到。
-
-After building you may run this command to cleanup · 构建完成后可以执行以下命令执行清理：
+You may do a clean-up after you finished: 
 ```bash
 $ ./build-deb -c
 ```
 
-Please note that the artifacts will also be cleaned.
+Note that it ALSO clears those artifacts mentioned earlier.
 
-请注意构建产物会被一并清除。
+
+<!-- LICENSE -->
+## License
+This repository is licensed under [GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007](./LICENSE). This is just a meta package. For all the components, please refer to their own licenses, which could be found in their own repositories.
+
+
+<!-- CONTACT -->
+## Contact
+Please fire up an Issue if you have any question or want to request a feature. Please do NOT fire up an Issue here. Instead, please go to [GXDE Wayland Compositor](https://gitee.com/GXDE-OS/gxde-wlcom/issues)'s repository.
+
+I know that this sounds strange, but in the early development stages all kinds of bugs of the components are together w/ WM issues, so everyone get used to fire up an issue there for any bugs under Wayland. We also have maintainer there that checks issues regularly.
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgements
+Thanks for those repositor(ies) for providing reference: 
+* **BEST README Template**: https://github.com/othneildrew/Best-README-Template
