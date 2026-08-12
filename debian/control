@@ -8,8 +8,8 @@ Standards-Version: 4.6.2
 Package: gxde-wayland-session
 Architecture: all
 Depends: ${misc:Depends},
-         gxde-wlcom (>= 1.4.1-gxde1),
-         gxde-wlcom-client (>= 1.4.1-gxde1),
+         gxde-wlcom (>= 2.1.8-gxde4),
+         gxde-wlcom-client (>= 2.1.8-gxde4),
          libdtk2widget6 (>= 6.0.3-4),
          libdtk2widget6-dev (>= 6.0.3-4),
          layer-shell-qt,
@@ -18,8 +18,18 @@ Depends: ${misc:Depends},
          gxde-disk-mount-plugin (>= 6.2.0-gxde1),
          gxde-dock (>= 6.0.0-1),
          dde-grand-search (>= 6.0.39gxde1),
-         dde-daemon (>= 4.0.1),
+         dde-daemon (>= 4.0.13),
          gxde-sni-server (>= 1.0.0-gxde1),
-         gxde-desktop-panel
+         gxde-desktop-panel,
+         gxde-top-panel (>= 1.0.6),
+         gxde-top-panel-plugins (>= 6.0.5),
+         xdg-desktop-portal-gxde (>= 1.2.0-gxde1),
+         dde-qt5integration (>= 6.7.44-gxde1),
+         dde-qt6integration (>= 6.0.49-gxde1),
+         gxde-terminal (>= 5.1.6),
+         gxde-control-center (>= 6.0.12),
+         gxdm (>= 1.2.1-gxde2),
+         gxde-daemon (>= 1.3.8)
+
 Description: GXDE Wayland Session meta-package
  This is a metapackage installs required components for GXDE Wayland Session.
