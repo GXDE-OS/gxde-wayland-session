@@ -13,13 +13,13 @@ Depends: ${misc:Depends},
          libdtk2widget6 (>= 6.0.3-4),
          libdtk2widget6-dev (>= 6.0.3-4),
          layer-shell-qt,
-         gxde-file-manager-neo,
-         gxde-desktop-panel-neo,
-         gxde-disk-mount-plugin-neo (>= 6.2.0-gxde1),
+         gxde-file-manager,
+         gxde-desktop-panel,
+         gxde-disk-mount-plugin (>= 6.2.0-gxde1),
          gxde-dock (>= 6.0.0-1),
          dde-grand-search (>= 6.0.39gxde1),
          dde-daemon (>= 4.0.1),
          gxde-sni-server (>= 1.0.0-gxde1),
-         gxde-desktop-panel-neo
+         gxde-desktop-panel
 Description: GXDE Wayland Session meta-package
  This is a metapackage installs required components for GXDE Wayland Session.
