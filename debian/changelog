@@ -1,3 +1,9 @@
+gxde-wayland-session (1.0.1-gxde1) unstable; urgency=medium
+
+  * Updated some dependencies
+
+ -- CharOfString <root@charofstring.cc>  Wed, 12 Aug 2026 16:27:00 +0800
+
 gxde-wayland-session (1.0.0-gxde4) unstable; urgency=medium
 
   * Initial release.
